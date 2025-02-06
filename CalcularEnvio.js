@@ -6,12 +6,12 @@ function calcularCostoEnvio(peso, distancia) {
   let recargoPeso = 0;
   let recargoDistancia = 0;
 
-
+ 
   if (peso > 5) {
     recargoPeso = (peso - 5) * 20.00;
   }
 
-
+ 
   if (distancia > 50) {
     recargoDistancia = (distancia - 50) * 10.00;
   }
@@ -31,3 +31,8 @@ function calcularCostoEnvio(peso, distancia) {
   console.log(`Costo total: L${costoTotal.toFixed(2)}`);
   console.log(`Fecha estimada de entrega: ${fechaEntrega}`);
 }
+
+
+const peso = 10; 
+const distancia = 120; 
+calcularCostoEnvio(peso, distancia);
