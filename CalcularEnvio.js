@@ -33,6 +33,6 @@ function calcularCostoEnvio(peso, distancia) {
 }
 
 
-const peso = 10; 
-const distancia = 120; 
+const peso = 25; 
+const distancia = 150; 
 calcularCostoEnvio(peso, distancia);
